@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Surfers Counter</title>
+    <link rel="stylesheet" href="counter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <div class="counter-box">
+            <h1 class="game-title">Score Counter</h1>
+            <div class="score-display">
+                <span id="counter">0</span>
+            </div>
+            <div class="controls">
+                <button id="decrement" class="game-btn">-</button>
+                <button id="increment" class="game-btn">+</button>
+                <button id="save" class="game-btn save-btn">Save Score</button>
+            </div>
+            <div class="saved-scores">
+                <h2>High Scores</h2>
+                <ul id="scores-list"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="counter.js"></script>
+</body>
+</html>
